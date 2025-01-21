@@ -11,7 +11,7 @@
 header,
 .curriculum,
 .story-container,
-.foot {
+.footer-section {
     margin: 0px auto;
     max-width: 1280px;
 }
@@ -277,7 +277,7 @@ img {
         linear-gradient(0deg, #fea3014d, #ffffff4d 100%);
 }
 
-.all-story{
+.all-story {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -372,11 +372,11 @@ img {
     overflow: hidden;
 }
 
-.story-card > img {
+.story-card>img {
     position: relative;
 }
 
-.story-card > button {
+.story-card>button {
     border-radius: 47.93px;
     background: #3cd8e8;
     margin-left: 34px;
@@ -398,7 +398,7 @@ img {
     padding-bottom: 60px;
 }
 
-.btn-view-all > button {
+.btn-view-all>button {
     border-radius: 12px;
     background: #111111;
     padding: 10px 30px;
@@ -414,3 +414,67 @@ img {
 }
 
 /* Stories Section End */
+
+
+/* Footer Section Start */
+
+footer {
+    padding: 175px 0;
+    background: #01acfd;
+    color: white;
+}
+
+.footer-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.kids-edu > div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.kids-title {
+    font-size: 42px;
+}
+
+
+.kids-edu p {
+    color: white;
+    margin-top: 20px;
+}
+.kids-description{
+    color: #fff8f8;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-footer > ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn-f{
+    color: white;
+}
+
+.social-icon img {
+    width: 40px;
+}
+
+.social-icon > div {
+    margin-top: 24px;
+}
