@@ -54,12 +54,3 @@ Explore Marquee Tag. use it anywhere in your homepage. make sure marquee is work
 Technology
 HTML & CSS only
 You can't use any other technology / Framework.
-What to Submit
-Your Github Repository . ex.("https://github.com/Repo-name")
-Your Live Link. ex.(https://user.github.io/Repo-name/)
-Design for Large Device
-
-
-Design for Small Device
-
-
