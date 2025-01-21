@@ -168,7 +168,7 @@ img {
 /* Curriculum Section Start  */
 
 .standard-curriculum {
-    background: url("assets/bg.png") no-repeat top left;
+    background: url("../assets/bg.png") no-repeat top left;
     background-repeat: no-repeat;
 }
 
@@ -184,8 +184,7 @@ img {
 .card {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(
-            180deg,
+    background: linear-gradient(180deg,
             #def5ff,
             #ffffff00 40%), #ffffff;
     padding: 60px 30px;
@@ -223,7 +222,7 @@ img {
     background: linear-gradient(180deg,
             #fff4dc,
             #ffffff00 40%),
-            #ffffff;
+        #ffffff;
 }
 
 .btn-more-2 {
@@ -237,7 +236,7 @@ img {
     background: linear-gradient(180deg,
             #eee1ff,
             #ffffff00 40%),
-            #ffffff;
+        #ffffff;
 }
 
 .btn-more-3 {
@@ -270,3 +269,148 @@ img {
 }
 
 /* Curriculum Section End */
+
+/* Stories Section Start */
+
+.stories {
+    background: url("../assets/bg.png"),
+        linear-gradient(0deg, #fea3014d, #ffffff4d 100%);
+}
+
+.all-story{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.story-title {
+    padding-top: 60px;
+    text-align: center;
+    color: #000000;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.first-story {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+
+.first-date {
+    margin-left: 34px;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    padding: 15px;
+    width: 230px;
+    text-align: center;
+    margin-top: -30px;
+    position: relative;
+    color: white;
+    z-index: 3;
+}
+
+.date-railway {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.story-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.story-details {
+    margin: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.story-title-all {
+    color: #000000;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 38.35px;
+    letter-spacing: 0%;
+    margin: 24px;
+}
+
+.story-description {
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    font-weight: 500;
+    margin: 24px;
+}
+
+.all-date {
+    border-radius: 47.93px;
+    background: #95b226;
+    width: 200px;
+    padding: 15px;
+    color: white;
+    position: relative;
+    z-index: 4;
+    margin-left: 34px;
+    margin-top: -32px;
+}
+
+.story-card {
+    border-radius: 16px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.story-card > img {
+    position: relative;
+}
+
+.story-card > button {
+    border-radius: 47.93px;
+    background: #3cd8e8;
+    margin-left: 34px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -150px;
+    color: white;
+}
+
+.date-beguni {
+    background: #5d58f0;
+}
+
+.btn-view-all {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.btn-view-all > button {
+    border-radius: 12px;
+    background: #111111;
+    padding: 10px 30px;
+    border: 2px solid black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-view:hover {
+    background-color: #1c0cf8;
+    color: #fea301;
+}
+
+/* Stories Section End */
