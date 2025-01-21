@@ -1,72 +1,73 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Quicksand", serif;
-  }
-  
-  /* Shared Style */
-  header,
-  .curriculum,
-  .story-container , .foot {
+}
+
+/* Shared Style */
+header,
+.curriculum,
+.story-container,
+.foot {
     margin: 0px auto;
     max-width: 1280px;
-  }
-  
-  a {
+}
+
+a {
     text-decoration: none;
-  }
-  
-  li {
+}
+
+li {
     list-style: none;
-  }
-  
-  img {
+}
+
+img {
     width: 100%;
-  }
-  
-  
-  
-  /* Nav bar */
-  .m-responsive {
+}
+
+
+
+/* Nav bar */
+.m-responsive {
     display: none;
-  }
-  
-  .logo {
+}
+
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .logo h2 {
+}
+
+.logo h2 {
     color: rgb(17, 17, 17);
     font-family: Quicksand;
     font-size: 32px;
     font-weight: 700;
-  }
-  .navbar {
+}
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-  }
-  
-  .navbar ul {
+}
+
+.navbar ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
-  }
-  
-  .navbar li {
+}
+
+.navbar li {
     font-size: 20px;
     font-weight: 500;
-  }
-  
-  .btn {
+}
+
+.btn {
     border-radius: 12px;
     background: #fea301;
     color: #ffffff;
@@ -75,78 +76,79 @@
     font-weight: 600;
     padding: 10px 40px;
     border: 2px solid #fea301;
-  }
-  
-  
-  .home a {
+}
+
+
+.home a {
     color: #fea301;
     font-weight: 700;
-  }
-  
-  .about a {
+}
+
+.about a {
     color: #01acfd;
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 500;
-  }
-  
-  .facilities a {
+}
+
+.facilities a {
     color: #05d4df;
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 500;
-  }
-  
-  .admission a {
+}
+
+.admission a {
     color: #5d58ef;
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 500;
-  }
+}
 
-  .btn:hover {
+.btn:hover {
     background-color: #1c0cf8;
     color: white;
-  }
+}
 
-  /* Hero kids Start */
+/* Hero kids Start */
 
 
 .hero-title {
     display: flex;
     flex-direction: column;
     gap: 24px;
-  }
+}
+
 .hero {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-  }
-  
-  .hero h2 {
+}
+
+.hero h2 {
     font-size: 56px;
     font-weight: 700;
-  }
-  
-  .empowering {
+}
+
+.empowering {
     color: #fea301;
 
-  }
+}
 
-  .towards-vision {
+.towards-vision {
     color: #01acfd;
-  }
-  
-  .hero-description {
+}
+
+.hero-description {
     color: #111111;
     font-family: Quicksand;
     font-size: 20px;
     font-weight: 400;
-  }
-  
-  .enroll-btn {
+}
+
+.enroll-btn {
     padding: 10px 47px;
     border-radius: 12px;
     font-size: 20px;
@@ -154,13 +156,117 @@
     color: white;
     font-weight: 700;
     border: 2px solid black;
-  }
-  
-  .enroll-btn:hover {
+}
+
+.enroll-btn:hover {
     background-color: #1c0cf8;
     color: #fea301;
-  }
+}
 
-  /* Hero Kids End */
+/* Hero Kids End */
 
-  
+/* Curriculum Section Start  */
+
+.standard-curriculum {
+    background: url("assets/bg.png") no-repeat top left;
+    background-repeat: no-repeat;
+}
+
+.curriculum-title {
+    text-align: center;
+    margin-top: 80px;
+    color: #000000;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+            180deg,
+            #def5ff,
+            #ffffff00 40%), #ffffff;
+    padding: 60px 30px;
+    border-radius: 18.86px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: 0.94px solid #def5ff;
+}
+
+.curriculum-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 80px auto;
+    align-items: center;
+}
+
+.btn-more {
+    color: #64c8ff;
+    font-weight: 700;
+}
+
+.curriculam-description {
+    color: #808080;
+    font-size: 15.09px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.elementary {
+    border: 0.94px solid #fff4dc;
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px #0000000d;
+    background: linear-gradient(180deg,
+            #fff4dc,
+            #ffffff00 40%),
+            #ffffff;
+}
+
+.btn-more-2 {
+    color: #f0aa00;
+}
+
+.middle {
+    border: 0.94px solid #f2e8ff;
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px #0000000d;
+    background: linear-gradient(180deg,
+            #eee1ff,
+            #ffffff00 40%),
+            #ffffff;
+}
+
+.btn-more-3 {
+    color: #8700ff;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 60px auto;
+}
+
+.arrow-container button {
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    background: #fea301;
+}
+
+.fa-solid {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Curriculum Section End */
