@@ -1,0 +1,166 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+  }
+  
+  /* Shared Style */
+  header,
+  .curriculum,
+  .story-container , .foot {
+    margin: 0px auto;
+    max-width: 1280px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  
+  
+  /* Nav bar */
+  .m-responsive {
+    display: none;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo h2 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .navbar li {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .btn {
+    border-radius: 12px;
+    background: #fea301;
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+    border: 2px solid #fea301;
+  }
+  
+  
+  .home a {
+    color: #fea301;
+    font-weight: 700;
+  }
+  
+  .about a {
+    color: #01acfd;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .facilities a {
+    color: #05d4df;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .admission a {
+    color: #5d58ef;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .btn:hover {
+    background-color: #1c0cf8;
+    color: white;
+  }
+
+  /* Hero kids Start */
+
+
+.hero-title {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .hero h2 {
+    font-size: 56px;
+    font-weight: 700;
+  }
+  
+  .empowering {
+    color: #fea301;
+
+  }
+
+  .towards-vision {
+    color: #01acfd;
+  }
+  
+  .hero-description {
+    color: #111111;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .enroll-btn {
+    padding: 10px 47px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border: 2px solid black;
+  }
+  
+  .enroll-btn:hover {
+    background-color: #1c0cf8;
+    color: #fea301;
+  }
+
+  /* Hero Kids End */
+
+  
