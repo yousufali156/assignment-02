@@ -30,7 +30,8 @@ img {
 
 
 
-/* Nav bar */
+/* Navbar */
+
 .m-responsive {
     display: none;
 }
@@ -439,7 +440,10 @@ footer {
 .kids-title {
     font-size: 42px;
 }
-
+.kids-edu img{
+    width: 100%;
+    height: 100px;
+}
 
 .kids-edu p {
     color: white;
@@ -478,3 +482,145 @@ footer {
 .social-icon > div {
     margin-top: 24px;
 }
+
+/* Footer Section End */
+
+/* Media Query Start */
+
+
+@media screen and (max-width: 576px) {
+    /* Sharend style */
+    .hero,
+    .curriculum,
+    .story-container,
+    .foot {
+      width: calc(100% - 30px);
+      margin: 0px auto;
+    }
+    img {
+      width: 100%;
+    }
+  
+    /* Navbar */
+
+    .navbar {
+      display: none;
+    }
+    .m-responsive {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .m-responsive > hr {
+      border: 0.5px solid rgb(254, 163, 1);
+    }
+  
+    .mobile-responsive {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      width: calc(100% - 30px);
+      margin: 0px auto;
+    }
+  
+    .three-line {
+      width: 45px;
+    }
+  
+    /* Hero kids Start */
+
+    .hero {
+      flex-direction: column-reverse;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .hero-title h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .hero-description {
+      text-align: center;
+    }
+  
+    .hero-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* Curriculum Section Start */
+
+    .curriculum h2 {
+      font-size: 26px;
+    }
+  
+    .curriculum-container {
+      flex-direction: column;
+    }
+  
+    /* Stories Section Start */
+
+    .story-card-first {
+      display: none;
+    }
+  
+    .first-story {
+      grid-template-columns: 1fr;
+    }
+    .all-story {
+      gap: 10px;
+    }
+  
+    .all-date {
+      padding: 5px;
+      font-size: 12px;
+      width: 130px;
+      margin-top: -22px;
+    }
+  
+    .story-title-all {
+      margin: 10px;
+    }
+  
+    /* Footer Section Start */
+
+    .footer-section {
+      grid-template-columns: 1fr;
+      margin-left: 20px;
+    }
+  
+    .kids-edu p {
+      text-align: left;
+    }
+  
+    .btn-footer {
+      align-items: flex-start;
+      margin-top: 34px;
+    }
+  
+    .social-icon {
+      margin-top: 34px;
+    }
+  
+    footer {
+      padding: 100px 0;
+    }
+  
+    /* Arrow None */
+
+    .arrow-container {
+      display: none;
+    }
+  
+    .story-container h2{
+      font-size: 30px;
+    }
+  
+    .curriculum > h2{
+      font-size: 30px;
+    }
+  }
